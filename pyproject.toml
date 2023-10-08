@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "adv-ml-asgn2"
+version = "1.0"
+description = "Assignment 2 for Advanced Machine Learning Application"
+authors = ["Rohan Rocky Britto"]
+readme = "README.md"
+packages = [{include = "adv_ml_asgn2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "2.0.1"
+jupyterlab = "3.6.3"
+scikit-learn = "1.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
