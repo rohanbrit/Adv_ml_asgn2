@@ -87,3 +87,6 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# Decision Tree model as it is greater than 100 MB
+models/predictive/dtr_pipe.joblib
